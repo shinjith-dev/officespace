@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ShineBorder } from "@/components/ui/shine-border";
+import { ArrowRight } from "lucide-react";
 import React from "react";
 
 type Props = {};
@@ -25,7 +26,10 @@ const HeaderRibbon = (props: Props) => {
             a long way, take a moment to brighten Jane's day!
           </span>
         </div>
-        <Button variant="outline">Wish Jane</Button>
+        <Button variant="outline">
+          Wish Jane
+          <ArrowRight />
+        </Button>
       </div>
     </div>
   );
