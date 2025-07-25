@@ -6,7 +6,7 @@
 
 <!-- Tell us about your intranet layout and what you were looking to achieve. -->
 
-As an employee, I've often wondered if there was a single website where I could view everything at a glance to start the day. Despite the fact that there are planning, product development tools, and dashboards, all of the information is spread across multiple websites. 
+As an employee, I've often wondered if there was a single website solution where I could view everything at a glance to start the day. Despite the fact that there are planning, product development tools, and dashboards, all of the information is spread across multiple websites. 
 
 I was able to design a simple prototype of a company landing page that summarizes all data for a quick glance throughout the day. Please access the live URL and view the details.
 
