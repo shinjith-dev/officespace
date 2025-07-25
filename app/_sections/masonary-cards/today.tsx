@@ -109,9 +109,9 @@ export default function TodayCard() {
                 <div className="flex flex-col items-center justify-center gap-2 py-6">
                   <div>{item.icon}</div>
                   <div className="font-semibold w-fit">{item.title}</div>
-                  {/* <div className="text-center text-sm text-muted-foreground">
+                  <div className="text-center text-sm text-muted-foreground">
                     {item.description}
-                  </div> */}
+                  </div>
                 </div>
               </CarouselItem>
             ))}
