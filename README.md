@@ -40,7 +40,7 @@ This design is heavily reliant on [**@shadcn-ui**](https://github.com/shadcn-ui)
 
 ## Conclusion
 
-The UI is currently immature, but the main goal is to consolidate all critical information on the home page. If you believe there is something missing, please leave a comment. Please show your support by liking this post. Many thanks.
+The UI is currently immature, but the main goal is to consolidate all critical information on the home page. If you believe there is something missing, please leave a comment. Please show your support by liking [this post](https://dev.to/shinjithdev/the-complete-company-landing-page-holistic-webdev-challenge-2jaa). Many thanks.
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
 <p align="center">This project uses color palette from <a href="https://github.com/catppuccin" target="_blank">Catppuccin Org</a></p>
