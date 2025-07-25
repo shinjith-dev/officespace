@@ -11,7 +11,7 @@ import MessagesCard from "./messages";
 
 export default function MasonryCards() {
   return (
-    <div className="flex max-w-7xl mx-auto gap-5 items-start px-5 md:flex-row flex-col-reverse">
+    <div className="flex max-w-7xl mx-auto gap-5 items-start px-5 md:flex-row flex-col">
       <div className="flex-1 lg:basis-1/3 flex flex-col gap-5">
         <GlanceCard />
         <TodayCard />

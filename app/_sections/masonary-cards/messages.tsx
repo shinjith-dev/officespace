@@ -45,11 +45,11 @@ const MessagesCard = () => (
       </CardDescription>
     </CardHeader>
     <CardContent>
-      <div className="space-y-4 w-full">
+      <div className="space-y-4">
         {messages.map((msg, idx) => (
           <div
             key={idx}
-            className="flex items-center gap-3 bg-primary/5 p-3 rounded-lg w-full"
+            className="flex items-center gap-3 bg-primary/5 p-3 rounded-lg"
           >
             <Avatar>
               <AvatarImage src={msg.avatar} alt={msg.from} />
@@ -64,11 +64,8 @@ const MessagesCard = () => (
             <div className="flex-1">
               <div className="font-medium">{msg.subject}</div>
               <div className="text-xs text-muted-foreground truncate">
-                {msg.preview}
+                {msg.time}
               </div>
-            </div>
-            <div className="text-xs text-muted-foreground shrink-0">
-              {msg.time}
             </div>
           </div>
         ))}

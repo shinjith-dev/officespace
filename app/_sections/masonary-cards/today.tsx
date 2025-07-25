@@ -65,7 +65,7 @@ export default function TodayCard() {
   }, [api]);
 
   return (
-    <Card className="break-inside-avoid relative overflow-hidden bg-chart-2/5">
+    <Card className="relative overflow-hidden bg-chart-2/5 w-full">
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Calendar1 className="w-5 h-5 text-chart-2" />
@@ -105,13 +105,13 @@ export default function TodayCard() {
         >
           <CarouselContent>
             {todaySpecials.map((item, idx) => (
-              <CarouselItem key={idx}>
+              <CarouselItem key={idx} className="w-[70%] mx-auto">
                 <div className="flex flex-col items-center justify-center gap-2 py-6">
                   <div>{item.icon}</div>
-                  <div className="font-semibold">{item.title}</div>
-                  <div className="text-center text-sm text-muted-foreground">
+                  <div className="font-semibold w-fit">{item.title}</div>
+                  {/* <div className="text-center text-sm text-muted-foreground">
                     {item.description}
-                  </div>
+                  </div> */}
                 </div>
               </CarouselItem>
             ))}
