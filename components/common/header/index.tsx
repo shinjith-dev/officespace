@@ -13,7 +13,7 @@ import {
 import { ThemeModeToggle } from "./theme-toggle";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { BellDot, Menu, MenuIcon } from "lucide-react";
+import { BellDot, MenuIcon } from "lucide-react";
 import { navLinks } from "./data";
 import {
   DropdownMenu,
@@ -21,12 +21,8 @@ import {
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuLabel,
-  DropdownMenuPortal,
   DropdownMenuSeparator,
   DropdownMenuShortcut,
-  DropdownMenuSub,
-  DropdownMenuSubContent,
-  DropdownMenuSubTrigger,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
@@ -115,7 +111,7 @@ export default function Header() {
                   <DropdownMenuLabel>{nl.label}</DropdownMenuLabel>
                   <DropdownMenuGroup>
                     {nl.items.map((nli) => (
-                      <DropdownMenuItem asChild>
+                      <DropdownMenuItem key={nli.title} asChild>
                         <Link href={nli.href}>{nli.title}</Link>
                       </DropdownMenuItem>
                     ))}
